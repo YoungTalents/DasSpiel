@@ -1,6 +1,6 @@
 {
-    "name": "das_spiel",
-    "short_name": "das_spiel",
+    "name": "Das Spiel",
+    "short_name": "Das Spiel",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
