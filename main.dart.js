@@ -11023,22 +11023,23 @@ this.b=b},
 a4Q:function a4Q(){},
 M_:function M_(){},
 h5:function(a){var s,r,q=null
-switch(a.a){case"Image":s=new S.Bo()
-s.a=new U.tb(M.aoc(q,q,new L.qP(a.b,q,q)),q)
+switch(a.a){case"Image":s="asset/"+a.b
+r=new S.Bo()
+r.a=new U.tb(M.aoc(q,q,new L.qP(s,q,q)),q)
 break
-case"Text":s=new S.F9()
-s.a=a.b
+case"Text":r=new S.F9()
+r.a=a.b
 break
-case"Video":r=a.b
-s=new S.ez()
-s.a=r
-r=s.b=new V.FD(r,new V.w1(C.u,C.u,C.eG,C.iL,!1,!1,!1,1,1,q,C.I,!1),new P.bl(t.V))
-r.fV(!0)
-r.jP(0)
-r.fW(0)
-s.c=r.fe(0)
+case"Video":s="asset/"+a.b
+r=new S.ez()
+r.a=s
+s=r.b=new V.FD(s,new V.w1(C.u,C.u,C.eG,C.iL,!1,!1,!1,1,1,q,C.I,!1),new P.bl(t.V))
+s.fV(!0)
+s.jP(0)
+s.fW(0)
+r.c=s.fe(0)
 break
-default:s=q}return s},
+default:r=q}return r},
 jJ:function jJ(a,b,c){this.c=a
 this.d=b
 this.a=c},
