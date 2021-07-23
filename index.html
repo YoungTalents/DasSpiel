@@ -77,7 +77,7 @@
         showIosInstall();
       }
 
-    var serviceWorkerVersion = '2492833885';
+    var serviceWorkerVersion = '2780192967';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -110,7 +110,8 @@
             if (!reg.active && (reg.installing || reg.waiting)) {
               // No active web worker and we have installed or are installing
               // one for the first time. Simply wait for it to activate.
-              waitForActivation(reg.installing ?? reg.waiting);
+              if (reg.installing == null) waitForActivation(reg.waiting);
+              else waitForActivation(reg.installing);
             } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
               // When the app updates the serviceWorkerVersion changes, so we
               // need to ask the service worker to update.
