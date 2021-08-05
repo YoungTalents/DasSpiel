@@ -1,11 +1,11 @@
 {
-    "name": "Das Spiel",
-    "short_name": "Das Spiel",
+    "name": "1111Das Spiel - Ohne Worte",
+    "short_name": "1111Das Spiel",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Das Spiel",
+    "description": "1111Ein Projekt von Young-Talents.org",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
