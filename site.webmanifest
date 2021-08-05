@@ -1,11 +1,11 @@
 {
-	"name": "The Game - Without Words",
-    "short_name": "The Game",
-    "start_url": "/",
+	"name": "Das Spiel - Ohne Worte",
+    "short_name": "Das Spiel",
+    "start_url": "/DasSpiel/",
     "display": "fullscreen",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A project by Young-Talents.org",
+    "description": "Ein Projekt von Young-Talents.org",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
 	"icons": [
